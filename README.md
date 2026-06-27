@@ -14,7 +14,7 @@ Treasure hunt game or activity app for clues, progress, and discovery.
 
 Treasure Hunt App is a treasure hunt project in the TheAdhithyanKR/treasure-hunt-app repository. Firebase-backed treasure hunt web app with player and coordinator dashboards.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=package.json; Json=}.Path), and the commands below are taken from its scripts.
 
 ## Key Features
 
@@ -32,7 +32,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- .firebaserc
 |-- cors.json
@@ -58,14 +58,14 @@ The README was written from the repository contents, including its manifest file
 |-- src/index.css
 |-- src/main.ts
 |-- src/main.tsx
-`
+```
 
 ## Setup
 
-`ash
+```bash
 npm install
 npm run dev
-`
+```
 
 ## What This Project Demonstrates
 
